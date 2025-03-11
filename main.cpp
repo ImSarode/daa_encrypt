@@ -7,6 +7,7 @@
 
 using namespace std;
 
+//Turn to lowercase
 string tolc(const string&s){
     string r=s;
     for(char&c:r){
@@ -15,6 +16,7 @@ string tolc(const string&s){
     return r;
 }
 
+//Clean word (remove ',',';',etc)
 string clnWrd(const string&w){
     string r;
     for(char c:w){
